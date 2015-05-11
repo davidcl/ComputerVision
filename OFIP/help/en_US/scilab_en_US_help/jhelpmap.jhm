@@ -4,4 +4,5 @@
 <mapID target="index" url="index.html"/>
 <mapID target="section_c3735bad0cfb47d88c7679358697a272" url="section_c3735bad0cfb47d88c7679358697a272.html"/>
 <mapID target="cv_imread" url="cv_imread.html"/>
+<mapID target="cv_imshow_path" url="cv_imshow_path.html"/>
 </map>

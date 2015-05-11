@@ -2,6 +2,7 @@
 <!DOCTYPE book [
 <!--Begin Entities-->
 <!ENTITY a5da5d0356e6ddb8cd090eba00247ba50 SYSTEM "file:///N:/GSOC1/OFIP-1.0/OFIP/help/en_US/cv_imread.xml">
+<!ENTITY a2f779f8319906cac57f19f565ed3b4d2 SYSTEM "file:///N:/GSOC1/OFIP-1.0/OFIP/help/en_US/cv_imshow_path.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -19,5 +20,6 @@
 <part xml:id='section_c3735bad0cfb47d88c7679358697a272'>
 <title>OFIP</title>
 &a5da5d0356e6ddb8cd090eba00247ba50;
+&a2f779f8319906cac57f19f565ed3b4d2;
 </part>
 </book>
