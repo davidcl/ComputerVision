@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is released under the 3-clause BSD license. See COPYING-BSD.
+ *
+ -->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scilab="http://www.scilab.org" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="cv_imread" xml:lang="en">
+    <refnamediv>
+        <refname>cv_imread</refname>
+        <refpurpose>Reading image</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Calling Sequence</title>
+        <synopsis>cv_imread()</synopsis>
+    </refsynopsisdiv>
+    
+    <refsection>
+        <title>Description</title>
+        <para>Read an image</para>
+        <para>This is an example function showing how a function will be called from scilab, It will Read an Image (hardcoded) and will print whether the Image is read or not</para>
+        
+        
+    </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">cv_imread</programlisting>
+    </refsection>
+    <refsection role="see also">
+        <title>See Also</title>
+        <simplelist type="inline">
+            <member>
+               
+            </member>
+        </simplelist>
+    </refsection>
+</refentry>
