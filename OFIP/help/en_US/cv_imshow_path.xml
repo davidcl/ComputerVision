@@ -34,7 +34,7 @@
         <title>Description</title>
         <para>Display and return Image.</para>
         <para>Image is read from the path provided by user, then the image is displayed and simultaneously image is returned to an output variable </para>
-        </refsection>
+    </refsection>
     <refsection>
         <title>Examples</title>
         <programlisting role="example">image=cv_imshow_path("N:\image.png")</programlisting>
