@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aaa29a6723d170b791304e978a3909ccc SYSTEM "file:///N:/toolbox1/OFIP-0.1-src/OFIP/help/en_US/cv_imread.xml">
+<!ENTITY a00f63a3879c80172d8ada5efcc64ebfe SYSTEM "file:///N:/toolbox1/OFIP-0.1-src/OFIP/help/en_US/cv_imshow_path.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='ofip_manual'>
+    <title>OFIP</title>
+  </info>
+
+<part xml:id='section_8ce32deb2c4f0ef59906ec6a549aa811'>
+<title>OFIP</title>
+&aaa29a6723d170b791304e978a3909ccc;
+&a00f63a3879c80172d8ada5efcc64ebfe;
+</part>
+</book>

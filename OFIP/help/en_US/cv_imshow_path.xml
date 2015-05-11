@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is released under the 3-clause BSD license. See COPYING-BSD.
+ *
+ -->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scilab="http://www.scilab.org" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="c_sub" xml:lang="en">
+    <refnamediv>
+        <refname>cv_imshow_path</refname>
+        <refpurpose>Showing Image</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Calling Sequence</title>
+        <synopsis>image = cv_imshow_path(path)</synopsis>
+    </refsynopsisdiv>
+    <refsection>	
+        <title>Arguments</title>
+			<varlistentry>
+                <term>path</term>
+                <listitem>
+                    <para>Input Argument</para>
+					<para>Pass a path to an image that you want to display</para>
+                </listitem>
+            </varlistentry>
+			<varlistentry>
+                <term>image</term>
+                <listitem>
+                    <para>output argument</para>
+                </listitem>
+            </varlistentry>
+        
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>Displays image</para>
+        <para> It reads an image from the path provided the user and displays it in a pop up box
+				It also returns the image incase the user wants to use it further
+		</para>
+        <para>
+            
+        </para>
+       
+       
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">image=cv_imshow_path("C:\Users\image.jpg")</programlisting>
+    </refsection>
+    
+</refentry>

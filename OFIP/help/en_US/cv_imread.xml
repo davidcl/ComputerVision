@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is released under the 3-clause BSD license. See COPYING-BSD.
+ *
+ -->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scilab="http://www.scilab.org" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="c_sub" xml:lang="en">
+    <refnamediv>
+        <refname>cv_imread</refname>
+        <refpurpose>Reading image</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Calling Sequence</title>
+        <synopsis>cv_imread()</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+	 <title>Arguments</title>
+        <variablelist>
+            
+        </variablelist>
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>Reads an image</para>
+        <para> It reads an image from the directory its located it.
+				The image path is hardcoded as this is an example function
+		</para>
+        <para>
+            
+        </para>
+       
+       
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">cv_imread()</programlisting>
+    </refsection>
+    
+</refentry>
