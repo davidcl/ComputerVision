@@ -3,7 +3,8 @@
 <toc version="1.0">
 <tocitem target="index" text="OFIP">
 <tocitem target="section_c3735bad0cfb47d88c7679358697a272" text="OFIP">
-<tocitem target="cv_imread" text="cv_imread"/>
+<tocitem target="cv_imread_path" text="cv_imread_path"/>
+<tocitem target="cv_imshow_image" text="cv_imageshow_image"/>
 <tocitem target="cv_imshow_path" text="cv_imageshow_path"/>
 <tocitem target="cv_rgb2gray_path" text="cv_rgb2gray_path"/>
 </tocitem>
