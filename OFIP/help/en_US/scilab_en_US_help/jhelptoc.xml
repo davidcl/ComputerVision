@@ -7,6 +7,7 @@
 <tocitem target="cv_imshow_image" text="cv_imageshow_image"/>
 <tocitem target="cv_imshow_path" text="cv_imageshow_path"/>
 <tocitem target="cv_rgb2gray_path" text="cv_rgb2gray_path"/>
+<tocitem target="cv_thresh_binary" text="cv_thresh_binary"/>
 </tocitem>
 </tocitem>
 </toc>

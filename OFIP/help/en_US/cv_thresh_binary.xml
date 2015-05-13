@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is released under the 3-clause BSD license. See COPYING-BSD.
+ *
+ -->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scilab="http://www.scilab.org" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="cv_thresh_binary" xml:lang="en">
+    <refnamediv>
+        <refname>cv_thresh_binary</refname>
+        <refpurpose>Binary Thresholding</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Calling Sequence</title>
+        <synopsis>image_ret =cv_thresh_binary(image)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+        <variablelist>
+            <varlistentry>
+                <term>image</term>
+                <listitem>
+                    <para>Image that needs to be thresholded</para>
+                </listitem>
+            </varlistentry>
+            
+            <varlistentry>
+                <term>image_ret</term>
+                <listitem>
+                    <para>Thresholded Image is returned to output variable "image"</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>Provides Binary thresholding</para>
+        <para>Thresholding is the simplest method of image segmentation. From a grayscale image, thresholding can be used to create binary images .
+		This function takes an image as input and thresholds the image. the thresholded image is returned to User via output variable</para>
+        </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">image_ret=cv_thresh_binary(input_image)</programlisting>
+		
+    </refsection>
+    <refsection role="see also">
+        <title>See Also</title>
+        <simplelist type="inline">
+            <member>
+                <link linkend="cv_imshow_path">cv_imshow_path</link>
+				<link linkend="cv_imread_path">cv_imread_path</link>
+            </member>
+        </simplelist>
+    </refsection>
+</refentry>

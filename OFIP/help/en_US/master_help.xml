@@ -5,6 +5,7 @@
 <!ENTITY a75efcf61d791093683da237fc5a666ff SYSTEM "file:///N:/GSOC1/OFIP-1.0/OFIP/help/en_US/cv_imshow_image.xml">
 <!ENTITY a2f779f8319906cac57f19f565ed3b4d2 SYSTEM "file:///N:/GSOC1/OFIP-1.0/OFIP/help/en_US/cv_imshow_path.xml">
 <!ENTITY ab13bddc14ff0aeeed2851c30ff43730a SYSTEM "file:///N:/GSOC1/OFIP-1.0/OFIP/help/en_US/cv_rgb2gray_path.xml">
+<!ENTITY a11ae3592a23a763e426d6216654e8538 SYSTEM "file:///N:/GSOC1/OFIP-1.0/OFIP/help/en_US/cv_thresh_binary.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -25,5 +26,6 @@
 &a75efcf61d791093683da237fc5a666ff;
 &a2f779f8319906cac57f19f565ed3b4d2;
 &ab13bddc14ff0aeeed2851c30ff43730a;
+&a11ae3592a23a763e426d6216654e8538;
 </part>
 </book>
