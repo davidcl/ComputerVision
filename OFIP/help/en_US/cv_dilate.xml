@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * This file is released under the 3-clause BSD license. See COPYING-BSD.
+ *
+ -->
+<refentry xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scilab="http://www.scilab.org" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns3="http://www.w3.org/1999/xhtml" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:db="http://docbook.org/ns/docbook" version="5.0-subset Scilab" xml:id="cv_dilate" xml:lang="en">
+    <refnamediv>
+        <refname>cv_dilate</refname>
+        <refpurpose>Dilate a Grayscale Image</refpurpose>
+    </refnamediv>
+    <refsynopsisdiv>
+        <title>Calling Sequence</title>
+        <synopsis>image_ret= cv_dilate(image,iterations)</synopsis>
+    </refsynopsisdiv>
+    <refsection>
+        <title>Arguments</title>
+        <variablelist>
+            <varlistentry>
+                <term>image</term>
+                <listitem>
+                    <para>It is the grayscale Image that is to be dialated</para>
+                </listitem>
+            </varlistentry>
+            
+			
+            <varlistentry>
+                <term>Iterations</term>
+                <listitem>
+                    <para>Iterations specify amount of dilation the user wants to Provide. Interation in an Integer value</para>
+                </listitem>
+            </varlistentry>
+			<varlistentry>
+                <term>image_ret</term>
+                <listitem>
+                    <para>Dialted Image is returned to user through image_ret</para>
+                </listitem>
+            </varlistentry>
+        </variablelist>
+    </refsection>
+    <refsection>
+        <title>Description</title>
+        <para>Dilating grayscale Image</para>
+        <para>Dilating is a basic operation of mathematical morphology. This function provides the basic operation of dilation. A Grayscale image is given as input and amount of dilation to be done in provided via iterations. The dilated image is given to user via "image_ret" output variable  </para>
+        </refsection>
+    <refsection>
+        <title>Examples</title>
+        <programlisting role="example">image_ret=cv_dilate(original_image,3)</programlisting>
+
+    </refsection>
+    <refsection role="see also">
+        <title>See Also</title>
+        <simplelist type="inline">
+            <member>
+                <link linkend="cv_imshow_path">cv_imshow_path</link>
+				<link linkend="cv_rgb2gray_path">cv_rgb2gray_path</link>
+            </member>
+        </simplelist>
+    </refsection>
+</refentry>
