@@ -1,3 +1,4 @@
+cv_dilate
 cv_imread_path
 cv_imshow_image
 cv_imshow_path
