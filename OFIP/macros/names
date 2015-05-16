@@ -7,4 +7,5 @@ cv_rgb2gray_path
 cv_thresh_binary
 cv_thresh_binary_inverse
 cv_thresh_truncate
+cv_thresh_tozero
 
