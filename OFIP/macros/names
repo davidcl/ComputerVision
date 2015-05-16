@@ -8,4 +8,5 @@ cv_thresh_binary
 cv_thresh_binary_inverse
 cv_thresh_truncate
 cv_thresh_tozero
+cv_thresh_tozero_inverse
 
