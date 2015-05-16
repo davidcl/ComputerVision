@@ -5,3 +5,4 @@ cv_imshow_image
 cv_imshow_path
 cv_rgb2gray_path
 cv_thresh_binary
+cv_thresh_binary_inverse
