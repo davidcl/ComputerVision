@@ -8,8 +8,8 @@ lines(0);
 
 function main_builder()
 
-    TOOLBOX_NAME  = "OFIP";
-    TOOLBOX_TITLE = "OFIP";
+    TOOLBOX_NAME  = "ComputerVision";
+    TOOLBOX_TITLE = "ComputerVision";
     toolbox_dir   = get_absolute_file_path("builder.sce");
 
     // Check Scilab's version

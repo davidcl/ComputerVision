@@ -5,14 +5,14 @@
 
 function toolboxlib = startModule()
 
-    TOOLBOX_NAME  = "OFIP";
-    TOOLBOX_TITLE = "OFIP";
+    TOOLBOX_NAME  = "ComputerVision";
+    TOOLBOX_TITLE = "ComputerVision";
 
   mprintf("Start " + TOOLBOX_TITLE + "\n");
 
  
 
-  etc_tlbx  = get_absolute_file_path("OFIP.start");
+  etc_tlbx  = get_absolute_file_path("ComputerVision.start");
   etc_tlbx  = getshortpathname(etc_tlbx);
   root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
 
@@ -21,6 +21,15 @@ function toolboxlib = startModule()
   mprintf("\tLoad macros\n");
   pathmacros = pathconvert( root_tlbx ) + "macros" + filesep();
   toolboxlib = lib(pathmacros);
+  
+  // load source
+// =============================================================================
+  verboseMode = ilib_verbose();
+  ilib_verbose(0);
+
+  
+  exec(pathconvert(root_tlbx+"/src/python/loader.sce",%f));
+  ilib_verbose(verboseMode);
 
 
 // Load and add help chapter
