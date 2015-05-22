@@ -10,4 +10,6 @@ cv_thresh_truncate
 cv_corner_Harris_path
 cv_thresh_tozero
 cv_thresh_tozero_inverse
+cv_filter2D
+
 
