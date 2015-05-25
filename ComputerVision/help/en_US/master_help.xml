@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY aacf08e286af49185fc75f423b081a414 SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_blur.xml">
+<!ENTITY a879b2e7637f5e16860d665b2cc67404a SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_dilate.xml">
+<!ENTITY af8d45b5ceec7ea4ecaad280d4681ba7c SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_imread.xml">
+<!ENTITY a730941d68db561883bef1cb6eaba72ac SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_imshow_image.xml">
+<!ENTITY a32bfddf2bb9dbbd97f623d5453aefb00 SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_imshow_path.xml">
+<!ENTITY a3077f232a18ab06dbaf531b23fe40eac SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_rgb2gray_path.xml">
+<!ENTITY a7e529491f9b5f7ccc1288a4a911d1cd9 SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_thresh_binary.xml">
+<!ENTITY a3b91b4de0bfb0f76212fb6fd18a547e9 SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_thresh_binary_inverse.xml">
+<!ENTITY ad90833273f99db35f12eb9d2a983306d SYSTEM "file:///N:/GSOC1/OFIP-1.0/ComputerVision/help/en_US/cv_thresh_tozero.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='computervision_manual'>
+    <title>ComputerVision</title>
+  </info>
+
+<part xml:id='section_63a2f00c5411c78726b0f2c22e887525'>
+<title>ComputerVision</title>
+&aacf08e286af49185fc75f423b081a414;
+&a879b2e7637f5e16860d665b2cc67404a;
+&af8d45b5ceec7ea4ecaad280d4681ba7c;
+&a730941d68db561883bef1cb6eaba72ac;
+&a32bfddf2bb9dbbd97f623d5453aefb00;
+&a3077f232a18ab06dbaf531b23fe40eac;
+&a7e529491f9b5f7ccc1288a4a911d1cd9;
+&a3b91b4de0bfb0f76212fb6fd18a547e9;
+&ad90833273f99db35f12eb9d2a983306d;
+</part>
+</book>
